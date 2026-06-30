@@ -87,7 +87,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: black;
+  background-color: rgb(175, 41, 41);
   align-self: center;
 }
 .first {
