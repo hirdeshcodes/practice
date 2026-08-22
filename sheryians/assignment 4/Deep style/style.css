@@ -101,9 +101,9 @@ body {
 }
 .left1 {
   grid-area: left1;
-  background-color: #FFB24D;
+
   border-radius: 1.5rem;
-  padding:0rem 0.3rem;
+
 }
 .left1 span {
   font-size: 1.2rem;
@@ -111,17 +111,53 @@ body {
   text-align:left;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.6rem;
+  margin-left: 0.3rem;
+}
+.left1>img{
+ 
+  margin-top:3rem;
+  background-color: #FFB24D;
+  padding:1rem;
+  padding-bottom: 0px;
+  width: 97%;
+  border-radius: 1.5rem;
 }
 .left2 {
   grid-area: left2;
   background-color: #F0D7AB;
   border-radius: 1.5rem;
   margin-top:2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left2>img{
+  width: 95%;
+  margin-top:1.3rem;
+}
+.left2a {
+  grid-area: left2a;
+  background-color: #26B9B0;
+  border-radius: 1.5rem;
+  margin-bottom:2rem;
+  overflow: hidden;
+    display: flex;
+  align-items: center;
+  justify-content: top;
+}
+.left2a>img{
+  width: 105%;
 }
 .center {
   grid-area: center;
   background-color: #FED644;
   border-radius: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.center>img{
+  width: 96%;
 }
 .right2 {
   grid-area: right2;
@@ -136,12 +172,7 @@ body {
   margin-top:7rem;
   margin-bottom:6.7rem;
 }
-.left2a {
-  grid-area: left2a;
-  background-color: #26B9B0;
-  border-radius: 1.5rem;
-  margin-bottom:2rem;
-}
+
 .right2a {
   grid-area: right2a;
   background-color: #00A0EE;
