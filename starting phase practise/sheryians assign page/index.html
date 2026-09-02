@@ -1,210 +1,215 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Sheryians Assignments</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+  <title>Sheryians Assignments</title>
 
-      body {
-        font-family: Arial, sans-serif;
-        background: #f5f5f5;
-        color: #222;
-        min-height: 100vh;
-        padding: 60px 20px;
-      }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-      .container {
-        width: 100%;
-        max-width: 700px;
-        margin: auto;
-      }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
 
-      h1 {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 40px;
-        font-weight: 700;
-      }
+    .container {
+      width: 100%;
+      max-width: 700px;
+      margin: auto;
+    }
 
-      .assignment {
-        background: white;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        margin-bottom: 12px;
-        overflow: hidden;
-      }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+      font-weight: 700;
+    }
 
-      .assignment-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 18px 20px;
-        cursor: pointer;
-        user-select: none;
-      }
+    .assignment {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
 
-      .assignment-title {
-        font-size: 18px;
-        font-weight: 600;
-      }
+    .assignment-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 20px;
+      cursor: pointer;
+      user-select: none;
+    }
 
-      .plus {
-        font-size: 24px;
-        font-weight: 300;
-        transition: transform 0.2s ease;
-      }
+    .assignment-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
 
-      .assignment.active .plus {
-        transform: rotate(45deg);
-      }
+    .plus {
+      font-size: 24px;
+      font-weight: 300;
+      transition: transform 0.2s ease;
+    }
 
-      .parts {
-        display: none;
-        border-top: 1px solid #eee;
-        padding: 8px 20px 12px;
-      }
+    .assignment.active .plus {
+      transform: rotate(45deg);
+    }
 
-      .assignment.active .parts {
-        display: block;
-      }
+    .parts {
+      display: none;
+      border-top: 1px solid #eee;
+      padding: 8px 20px 12px;
+    }
 
-      .part {
-        display: block;
-        padding: 12px 5px;
-        color: #555;
-        text-decoration: none;
-        border-bottom: 1px solid #f0f0f0;
-        transition:
-          color 0.2s ease,
-          padding-left 0.2s ease;
-      }
+    .assignment.active .parts {
+      display: block;
+    }
 
-      .part:last-child {
-        border-bottom: none;
-      }
+    .part {
+      display: block;
+      padding: 12px 5px;
+      color: #555;
+      text-decoration: none;
+      border-bottom: 1px solid #f0f0f0;
+      transition:
+        color 0.2s ease,
+        padding-left 0.2s ease;
+    }
 
-      .part:hover {
-        color: #111;
-        padding-left: 10px;
-      }
+    .part:last-child {
+      border-bottom: none;
+    }
 
-      /* Assignment 5 is a direct link */
-      .assignment-link {
-        display: block;
-        color: inherit;
-        text-decoration: none;
-      }
-    </style>
-  </head>
+    .part:hover {
+      color: #111;
+      padding-left: 10px;
+    }
 
-  <body>
-    <div class="container">
-      <h1>Sheryians Task</h1>
+    /* Assignment 5 is a direct link */
+    .assignment-link {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
 
-      <!-- Assignment 1 -->
-      <div class="assignment">
-        <div class="assignment-header">
-          <span class="assignment-title">Assignment 1</span>
-          <span class="plus">+</span>
-        </div>
+<body>
+  <div class="container">
+    <h1>Sheryians Task</h1>
 
-        <div class="parts">
-          <a href="https://loom-three-lovat.vercel.app/" class="part">
-            Loome
-          </a>
-        </div>
+    <!-- Assignment 1 -->
+    <div class="assignment">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 1</span>
+        <span class="plus">+</span>
       </div>
 
-      <!-- Assignment 2 -->
-      <div class="assignment">
-        <div class="assignment-header">
-          <span class="assignment-title">Assignment 2</span>
-          <span class="plus">+</span>
-        </div>
-
-        <div class="parts">
-          <a href="https://astro-chi-blond.vercel.app/" class="part"> Astro </a>
-
-          <a href="https://gunaforycter-gamma.vercel.app/" class="part">
-            Gunaforycter
-          </a>
-
-          <a href="https://insect-cyan.vercel.app/" class="part"> Insect </a>
-        </div>
+      <div class="parts">
+        <a href="https://loom-three-lovat.vercel.app/" class="part">
+          Loome
+        </a>
       </div>
-
-      <!-- Assignment 3 -->
-      <div class="assignment">
-        <div class="assignment-header">
-          <span class="assignment-title">Assignment 3</span>
-          <span class="plus">+</span>
-        </div>
-
-        <div class="parts">
-          <a href="https://shinsei-ecru.vercel.app/" class="part"> Shinsei </a>
-
-          <a href="https://squidgame-two-eosin.vercel.app/" class="part">
-            Squid game
-          </a>
-
-          <a href="PASTE-PART-3-LINK-HERE" class="part"> Not made sorry </a>
-        </div>
-      </div>
-
-      <!-- Assignment 4 -->
-      <div class="assignment">
-        <div class="assignment-header">
-          <span class="assignment-title">Assignment 4</span>
-          <span class="plus">+</span>
-        </div>
-
-        <div class="parts">
-          <a href="PASTE-PART-1-LINK-HERE" class="part"> Part 1 </a>
-
-          <a href="PASTE-PART-2-LINK-HERE" class="part"> Part 2 </a>
-
-          <a href="PASTE-PART-3-LINK-HERE" class="part"> Part 3 </a>
-        </div>
-      </div>
-
-      <!-- Assignment 5 - Direct Link -->
-      <a
-        href="https://assignment5-gilt-chi.vercel.app/"
-        class="assignment assignment-link"
-      >
-        <div class="assignment-header">
-          <span class="assignment-title">Assignment 5</span>
-        </div>
-      </a>
-      <!-- Assignment 6 - Direct Link -->
-      <a href="#" class="assignment assignment-link">
-        <div class="assignment-header">
-          <span class="assignment-title">Assignment 6</span>
-        </div>
-      </a>
-      <!-- END -->
     </div>
 
-    <script>
-      const assignments = document.querySelectorAll(
-        ".assignment:not(.assignment-link)",
-      );
+    <!-- Assignment 2 -->
+    <div class="assignment">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 2</span>
+        <span class="plus">+</span>
+      </div>
 
-      assignments.forEach((assignment) => {
-        const header = assignment.querySelector(".assignment-header");
+      <div class="parts">
+        <a href="https://astro-chi-blond.vercel.app/" class="part"> Astro </a>
 
-        header.addEventListener("click", () => {
-          assignment.classList.toggle("active");
-        });
+        <a href="https://gunaforycter-gamma.vercel.app/" class="part">
+          Gunaforycter
+        </a>
+
+        <a href="https://insect-cyan.vercel.app/" class="part"> Insect </a>
+      </div>
+    </div>
+
+    <!-- Assignment 3 -->
+    <div class="assignment">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 3</span>
+        <span class="plus">+</span>
+      </div>
+
+      <div class="parts">
+        <a href="https://shinsei-ecru.vercel.app/" class="part"> Shinsei </a>
+
+        <a href="https://squidgame-two-eosin.vercel.app/" class="part">
+          Squid game
+        </a>
+
+        <a href="PASTE-PART-3-LINK-HERE" class="part"> Not made sorry </a>
+      </div>
+    </div>
+
+    <!-- Assignment 4 -->
+    <div class="assignment">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 4</span>
+        <span class="plus">+</span>
+      </div>
+
+      <div class="parts">
+        <a href="PASTE-PART-1-LINK-HERE" class="part"> Part 1 </a>
+
+        <a href="PASTE-PART-2-LINK-HERE" class="part"> Part 2 </a>
+
+        <a href="PASTE-PART-3-LINK-HERE" class="part"> Part 3 </a>
+      </div>
+    </div>
+
+    <!-- Assignment 5 - Direct Link -->
+    <a href="https://assignment5-gilt-chi.vercel.app/" class="assignment assignment-link">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 5</span>
+      </div>
+    </a>
+    <!-- Assignment 6 - Direct Link -->
+    <a href="#" class="https://assignment6-rust-beta.vercel.app/">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 6</span>
+      </div>
+    </a>
+    <!-- Assignment 7 - Direct Link -->
+    <a href="#" class="assignment assignment-link">
+      <div class="assignment-header">
+        <span class="assignment-title">Assignment 7</span>
+      </div>
+    </a>
+    <!-- END -->
+  </div>
+
+  <script>
+    const assignments = document.querySelectorAll(
+      ".assignment:not(.assignment-link)",
+    );
+
+    assignments.forEach((assignment) => {
+      const header = assignment.querySelector(".assignment-header");
+
+      header.addEventListener("click", () => {
+        assignment.classList.toggle("active");
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
